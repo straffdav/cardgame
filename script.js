@@ -14,7 +14,9 @@ deckElem.addEventListener("click", () => {
     const card = deck.pop();
     deckElem.style.backgroundImage = `url(${card})`;
     if (card === "card-50.png") {
-      alert("Game over!");
+      setTimeout(() => {
+        alert("Game over!");
+      }, 0); // 1-second delay
     }
   }
 });
@@ -24,7 +26,9 @@ topSquareElem.addEventListener("click", () => {
     const card = deck.pop();
     topSquareElem.style.backgroundImage = `url(${card})`;
     if (card === "card-50.png") {
-      alert("Game over!");
+      setTimeout(() => {
+        alert("Game over!");
+      }, 0); // 1-second delay
     }
   }
 });
@@ -34,7 +38,9 @@ bottomSquareElem.addEventListener("click", () => {
     const card = deck.pop();
     bottomSquareElem.style.backgroundImage = `url(${card})`;
     if (card === "card-50.png") {
-      alert("Game over!");
+      setTimeout(() => {
+        alert("Game over!");
+      }, 0); // 1-second delay
     }
   }
 });
